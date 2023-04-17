@@ -24,7 +24,7 @@ body{
     color: white;
     width: 90%;
    height: fit-content;
-    font-family: "Gabriola";
+    font-family: "Charm";
     background-color: black;
     padding: 20px;
     
@@ -106,7 +106,7 @@ p{
 }
 
 h3{
-    font-family: "Gabriola";
+    font-family: "Charm";
     color: rgba(255, 255, 255, 0.903);
     font-size: 5vw;
     text-emphasis: 2px;
@@ -126,7 +126,7 @@ h3{
     width: 99%;
    height: fit-content;
     text-align: center;
-    font-family: "Gabriola";
+    font-family: "Charm";
     background-color: black;
     
     
@@ -185,7 +185,7 @@ h3{
  p{
     color: white;
     text-align: center;
-    font-family: "Gabriola";
+    font-family: "Charm";
     font-size: 4.8vw;
     margin-left: 5%;
     display: block;
@@ -235,7 +235,7 @@ h3{
     
     
      font-size: 15vw;
-    font-family: "Gabriola";
+    font-family: "Charm";
      background-color: black ;
     
      text-align: center;
@@ -271,7 +271,7 @@ h3{
 
 
 h3{
-    font-family: "Gabriola";
+    font-family: "Charm";
     color: rgba(255, 255, 255, 0.903);
     font-size: 10vw;
     text-emphasis: 2px;
@@ -292,7 +292,7 @@ h3{
     margin-left: auto;
     margin-right: auto;
     color: white;
-    font-family: "Gabriola";
+    font-family: "Charm";
     font-size: 4.8vw;
     display: block;
     width: 80%; 
@@ -315,7 +315,7 @@ h3{
     margin-left: 10%;
     margin-right: 0%;
     color: white;
-    font-family: "Gabriola";
+    font-family: "Charm";
     font-size: 4.8vw;
     display: block;
     width: 80%; 
