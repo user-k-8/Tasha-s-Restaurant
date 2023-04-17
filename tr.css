@@ -1,0 +1,338 @@
+
+
+body{
+    background-color: black;
+    border: solid;
+    width: 100vw;
+    
+}
+
+#name{
+    display: block;
+    margin:auto;
+    height:450px;
+    width:750px;  
+}
+
+
+.intro{
+   
+    content: "";
+    clear: both;
+    display:inline-block;
+    margin:0px auto;
+    color: white;
+    width: 90%;
+   height: fit-content;
+    font-family: "Gabriola";
+    background-color: black;
+    padding: 20px;
+    
+    
+    
+}
+
+
+
+.outer-intro, .outer-menu,
+.outer-steaks, .outer-salads,
+.outer-burgers,.outer-drinks,
+.outer-dessert,.outer-contact{
+    
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    width: 100%;
+    text-align: center;
+    
+    
+}
+
+p{
+    font-size: 2.5vw;
+    text-align: left;
+    
+}
+
+.intopar{
+    margin-top: 0%;
+     margin-left: 10%;
+     margin-right: 0%;
+    width:40%;
+    height:100%;
+     display:inline;
+         
+ }
+
+ .venue{
+    margin-left: 2%;
+    margin-right: 5%;
+    margin-bottom: 1.2%;
+    height: 100%;
+    width:50%;
+    float: left;
+
+
+ }
+
+
+.menuheading{
+    
+     margin-left: 0%;
+     margin-right: 0%;
+     font-size: 5vw;
+    height: max-content;
+    width:30%;
+     background-color: black;
+    line-height: 10vh;
+     text-align: center;
+     padding-top: 2%;
+     float: left;
+     
+ }
+
+ .logo1{
+    margin-left: 0%;
+    margin-right: 3%;
+    width:30%;
+    height:100%; 
+    float: left;
+ }
+.logo2{
+    margin-left: 2%;
+    display: inline-block;
+    width:30%;
+    height:100%;
+}
+
+h3{
+    font-family: "Gabriola";
+    color: rgba(255, 255, 255, 0.903);
+    font-size: 5vw;
+    text-emphasis: 2px;
+    text-align: center;
+}
+
+.menu,
+.steaks,.salads,
+.burgers,.drinks,
+.dessert,.contact{
+   
+    content: "";
+    clear: both;
+    display:inline-block;
+    margin:0px auto;
+    color: white;
+    width: 99%;
+   height: fit-content;
+    text-align: center;
+    font-family: "Gabriola";
+    background-color: black;
+    
+    
+}
+
+.image{
+    float: left;
+    width:35%;
+    height: 100%;
+}
+
+
+
+.steak1,.salad1,
+.burger1,.drink1,
+.dessert1,.contact1{
+    text-align: center;
+    margin-left: 0%;
+    margin-right: 0%;
+    font-size: 2.5vw;
+   width:30%;
+   height:100%;
+   float:left;
+}
+
+    
+
+.steak2,.salad2,
+.burger2,.drink2,
+.dessert2,.contact2{
+   text-align: center;
+    margin-left: 0%;
+    margin-right: 0;
+    font-size: 2.5vw;
+    width:30%;
+    height:100%;
+    display: inline-block;
+    
+}
+
+/* Use a media query to add a breakpoint at 800px: */
+  @media  (max-width: 950px) {
+    /* … */
+
+   
+#name{
+    display: inline-block;
+    margin:auto;
+    height: 100%;
+    width: 80%;  
+}
+  
+
+
+
+ p{
+    color: white;
+    text-align: center;
+    font-family: "Gabriola";
+    font-size: 5.2vw;
+    margin-left: 5%;
+    display: block;
+    clear: both;
+ }
+
+.intro{
+     width: 100%;
+}
+ 
+ .image{
+    display: block;
+    margin-left: 20%;
+    height: 100%;
+    width: 60%; 
+    clear: both;
+    margin-bottom: 7%;
+    
+    
+ }
+
+ .venue{
+    display: block;
+    margin-left: 10%;
+    height: 100%;
+    width: 80%; 
+    clear: both;
+    margin-bottom: 7%;
+    
+    
+ }
+
+ .intro{
+        width: 90%;
+        clear: both;
+    
+ }
+
+.menuheading{
+
+    clear: both;
+    display: block;
+    width: 100%;
+}
+
+.menuheading h1{
+    
+    
+     font-size: 15vw;
+    font-family: "Gabriola";
+     background-color: black ;
+    
+     text-align: center;
+     color:white;
+     display: block;
+     height: 70%;
+    width: 100%; 
+    clear: both;
+
+     
+ }
+
+ .logo1{
+   clear: both;
+    margin-left: 17%;
+    margin-right: 0%;
+    display: block;
+    height: 100%;
+    width: 60%; 
+    clear: both;
+    
+    
+ }
+.logo2{
+   
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    height: 100%;
+    width: 60%; 
+    clear: both;
+}
+
+
+h3{
+    font-family: "Gabriola";
+    color: rgba(255, 255, 255, 0.903);
+    font-size: 10vw;
+    text-emphasis: 2px;
+    text-align: center;
+    clear: both;
+}
+
+
+
+.steak2, 
+ .salad2,
+ .burger2,
+.drink2,
+.dessert2,
+.contact2{
+   
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    color: white;
+    font-family: "Gabriola";
+    font-size: 5.2vw;
+    display: block;
+    width: 80%; 
+    height:100%;
+    clear: both;
+
+
+}
+
+
+.steak1, 
+.salad1, 
+.burger1, 
+.drink1,
+.dessert1,
+.contact1{
+
+
+    text-align: center;
+    margin-left: 10%;
+    margin-right: 0%;
+    color: white;
+    font-family: "Gabriola";
+    font-size: 5.2vw;
+    display: block;
+    width: 80%; 
+    height:100%;
+    clear: both;
+    margin-bottom: 7%;
+
+}
+
+.logo{
+text-align: center;
+margin-left: auto;
+margin-right: auto;
+display: block;
+width: 60%; 
+height:100%;
+clear: both;
+}
+
+  }
