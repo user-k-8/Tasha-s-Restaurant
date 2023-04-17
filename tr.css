@@ -168,7 +168,7 @@ h3{
 }
 
 /* Use a media query to add a breakpoint at 800px: */
-  @media  (max-width: 950px) {
+  @media  (max-width: 1050px) {
     /* … */
 
    
